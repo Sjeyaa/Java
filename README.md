@@ -2,14 +2,13 @@
 Index and Concodance
 . Index for a book
 An index lists every word that occurs in the document, and for each word it gives the page
-number in the document where the word occurs. Write a program that can create an index
-for a document. The document should be read from an input file, and the index data should
+number in the document where the word occurs. The document should be read from an input file, and the index data should
 be written to an output file.
 ii. Concordance for a book
 A concordance lists every word that occurs in the document, and for each word it gives
 the line number of every line in the document where the word occurs. The only real
 difference is that the integers in a concordance are line numbers rather than page numbers.
-Write a program that can create a concordance. The document should be read from an
+The document should be read from an
 input file, and the concordance data should be written to an output file.
 The input and output files should be selected by the user when the program is run. As you
 read the file, you want to take each word that you encounter and add it to the concordance
